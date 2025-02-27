@@ -28,23 +28,19 @@ const About = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={'About me'.split('')}
               idx={15}
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a highly driven third-year Computer Science student at Santa Clara University
+            with a strong interest in machine learning, software engineering, and data science.
+            I'm passionate about leveraging technology to solve complex problems,
+            build scalable solutions, and contribute to innovative projects.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
-          </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            I'm currently seeking internship and research opportunities that allow me to further
+            my skills as an engineer, while working on impactful projects.
           </p>
         </div>
 
